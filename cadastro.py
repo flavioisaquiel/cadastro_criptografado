@@ -21,7 +21,7 @@ hashed_password = hashlib.sha256(Senha.encode()).hexdigest() # criptografando a 
 conexao = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='@Fa267268',
+    password='xxxxxxx',
     database='dados',
 )
 cursor = conexao.cursor()
